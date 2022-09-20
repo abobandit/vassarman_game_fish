@@ -6,11 +6,11 @@ const GamePage = () => {
     <main className={css.background}>
             <div className={css.menubar}>
                 <a href={'#'} className={css.button}>Exit</a>
-                <div className={css.timer}>a</div>
+                <div className={css.timer}>Я таймер - считаю секунды</div>
                 <a href={'#'} className={css.button}>Pause</a>
             </div>
             <div className={css.map}>
-                <div className={css.fish}>a</div>
+                <div className={css.fish}></div>
             </div>
     </main>
 

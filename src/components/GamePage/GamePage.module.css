@@ -23,7 +23,12 @@
     display: inline-block;
     border: 1px solid #FEE441	;
     border-radius:7px;
-    padding: 2px 5px;
-
-
+    padding:3px 15px 6px;
+}
+.fish{
+    content: " ";
+    width: 100px;
+    height: 100px;
+    background: url("../../pictures/fish.png");
+    background-size: cover;
 }
