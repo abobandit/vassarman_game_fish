@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  
+  padding: 0;
+  }
+  .background{
+      width: 100vw;
+      height: 100vh;
+      background: url("./pictures/6jul.gif") fixed;
+      background-size: cover;
+      margin: 0 auto;
+  }
+  .center{
+      display: grid;
+      grid-template-columns: 1fr  ;
+      grid-template-rows: 1fr 1fr;
+      justify-items: center;
+      height: 100vh;
+  
+  }
+
+  .center input,
+  .center a {
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 6px;
+  }
+  
+  .center input{
+      align-self: end;
+      margin-bottom: 20px;
+      font-size: 18px;
+      border: none;
+  }
+
+  .center a {
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: rgb(211, 57, 57);
+  }
+
+  .center a:hover {
+    background-color: rgb(171, 40, 40);
+    transition: background-color .35s;
+  }
